@@ -136,7 +136,7 @@ def menu():
             os.system('clear')
             print '\x1b[1;91m[!] \x1b[1;93mSepertinya akun terkena Checkpoint'
             os.system('rm -rf login.txt')
-            time.sleep(1)
+            time.sleep(2)
             login()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[!] Tidak ada koneksi'
