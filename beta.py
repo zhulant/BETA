@@ -152,7 +152,7 @@ def menu():
     print '\x1b[1;37;40m3. Bot Facebook      '
     print '\x1b[1;37;40m4. Selanjutnya..     '
     print '\x1b[1;37;40m5. LogOut Facebook   '
-	print '\x1b[1;37;40m6. Lihat Token FB    '
+	print '\x1b[1;37;40m6. Show Token FB     '
     print '\x1b[1;31;40m0. Keluar Program    '
     print  
     pilih()
