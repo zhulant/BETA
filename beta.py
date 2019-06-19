@@ -153,6 +153,7 @@ def menu():
     print '\x1b[1;37;40m4. Selanjutnya..     '
     print '\x1b[1;37;40m5. LogOut Facebook   '
     print '\x1b[1;37;40m6. Lihat Token FB    '
+	print '\x1b[1;37;40m7. Update Program    '
     print '\x1b[1;31;40m0. Keluar Program    '
     pilih()
 
@@ -184,6 +185,9 @@ def pilih():
 								os.system('nano login.txt')
                        
 								keluar()
+							else:
+								if zedd == '6':
+								os.system('git pull')
 							else:
 								if zedd == '0':
 									keluar()
